@@ -2,13 +2,13 @@
 Get Movies from an external API
 
 ----------------------------------------------------------------------------
-Download Dependencies		 					                                         |
+Download Dependencies		 					                                         
 ----------------------------------------------------------------------------
 1) After downloading all files and folders run "npm install" in your
 command shall to download all npm packages.
 
 ----------------------------------------------------------------------------
-Running the App		 					                                               |
+Running the App		 					                                               
 ----------------------------------------------------------------------------
 1) After downloading all packages. 
 2) Navigate to the webservice folder in your command shell (e.g. GitBash)
@@ -20,7 +20,7 @@ Running the App		 					                                               |
 7) Click search or hit enter to get the movie results. 
 
 ----------------------------------------------------------------------------
-Improvements to be made		 					                                       |
+Improvements to be made		 					                                       
 ----------------------------------------------------------------------------
 1) Handle errors. Right now there is no testing for incorrect values entered. 
 Would implement try catch to handle any invalid inputs. 
