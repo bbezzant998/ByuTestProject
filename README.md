@@ -6,6 +6,7 @@ Download Dependencies
 ----------------------------------------------------------------------------
 1) After downloading all files and folders run "npm install" in your
 command shall to download all npm packages.
+2) Node.js is required to run the server. If you don't have Node.js download it from the Node.js website.
 
 ----------------------------------------------------------------------------
 Running the App		 					                                               
