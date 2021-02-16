@@ -40,6 +40,8 @@ with their data-binding to make the page more responsive and dynamic.
 empty space. Given more time I would make it so cards that don't have pictures would take up less vertical
 space. 
 
+5) Security. I would hide the API requrest links. Use an env file as suggested in the recommandations
+
 
 
 
