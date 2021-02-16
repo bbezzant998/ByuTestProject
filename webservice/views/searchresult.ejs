@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Here are your search results</h1>
+        <a href="javascript:history.back()">Return to search page</a>
+    </div>
+    
+        <% for(let movie of movies){ %> 
+            <div class="card">
+                <h2><%= movie.title %></h2>
+                <label>ID: <%= movie.movie_id %></label>
+                <section>
+                    <label><%= movie.popularity_summary %></label>
+                </section>
+                <img class="picture" src="https://image.tmdb.org/t/p/w500<%= movie.poster_image_url %> " alt="No image found">
+            </div>
+        <% } %> 
+</body>
+</html>
